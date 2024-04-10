@@ -1,8 +1,7 @@
 variable "credentials" {
   description = "My Credentials"
-  default     = "/home/okibaba/.gc/ny-rides.json"
-  #ex: if you have a directory where this file is called keys with your service account json file
-  #saved there as my-creds.json you could use default = "./keys/my-creds.json"
+  default     = "/home/okibaba/.gc/your-credentials.json"
+ 
 }
 
 
