@@ -14,3 +14,6 @@ zoomcamp data engineering project
 
 
 pipeline pulls s&p500 data bla-bla
+
+## Report & Discussion
+https://lookerstudio.google.com/u/0/reporting/e990566e-53de-42d0-b816-045eb529e9aa/page/cPswD/edit
