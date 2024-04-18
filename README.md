@@ -24,6 +24,7 @@ While the data isn't particularly large, my goal for this project was to build a
 
 
 ## Report & Discussion
+### looker report link
 https://lookerstudio.google.com/u/0/reporting/e990566e-53de-42d0-b816-045eb529e9aa/page/cPswD/edit
 
 ![Project Infrastructure](screenshots/looker/looker-studio-report.png)
