@@ -18,10 +18,14 @@ While the data isn't particularly large, my goal for this project was to build a
 - Mage - for orchestration of pipelines <br>
 
 
+## Project architecture
+
 ## Mage orchestration/pipeline
 ![Project Infrastructure](screenshots/mage-orchestration/orchestration-flow-diagram-.png)
 
+## Data source
 
+## Data schema
 
 ## Report & Discussion
 ### looker report link
