@@ -18,7 +18,7 @@ While the data isn't particularly large, my goal for this project was to build a
 - Google Looker studio - for project data visualizations. <br>
 
 
-
+## Mage orchestration/pipeline
 ![Project Infrastructure](screenshots/mage-orchestration/orchestration-flow-diagram-.png)
 
 
@@ -26,7 +26,7 @@ While the data isn't particularly large, my goal for this project was to build a
 ## Report & Discussion
 https://lookerstudio.google.com/u/0/reporting/e990566e-53de-42d0-b816-045eb529e9aa/page/cPswD/edit
 
-## key findings
+![Project Infrastructure](screenshots/looker/looker-studio-report.png)
 
 
 ## future work
