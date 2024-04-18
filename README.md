@@ -29,12 +29,12 @@ https://lookerstudio.google.com/u/0/reporting/e990566e-53de-42d0-b816-045eb529e9
 ![Project Infrastructure](screenshots/looker/looker-studio-report.png)
 
 ## Some insights
--Apple appears to be one of the most traded S&P500 stock.
--We can see peak volume trends around 2010 during the global financial crisis.
--In general the maximum volume traded over time seems to have dropped which is a bit interesting or could just be a due to data processing artefact, and might warrant further investigation.
+-Apple appears to be one of the most traded S&P500 stock. <br>
+-We can see peak volume trends around 2010 during the global financial crisis. <br>
+-In general the maximum volume traded over time seems to have dropped which is a bit interesting or could just be a due to data processing artefact, and might warrant further investigation. <br>
 
 ## Future work
-redo project but using a streaming data source
-extend analysis and potentially use machine learning to predict onset of market shocks
+redo project but using a streaming data source <br>
+extend analysis and potentially use machine learning to predict onset of market shocks <br>
 
 
