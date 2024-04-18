@@ -2,6 +2,8 @@
 
 ## Project summary
 In this project we set up a cloud based infrastructure to ingest, process and visualize batch S&P 500 data.
+Goal of analysis was to understand volume trend for the S&P500 from 2010 to present. One interesting use of this type of analysis is to understand market anomalies and shocks. During those shock periods (say a crash)the volume traded in the market tends to spike. Of course there are more rigorous analysis to answer this type of question but that's outside the scope of project.
+
 While the data isn't particularly large, my goal for this project was to build a scalable end to end data engineering & visualization pipeline. We expect the infrastructure to scale even for larger data set.
 
 
