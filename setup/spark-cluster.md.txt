@@ -1,0 +1,1 @@
+gcloud dataproc clusters create okibaba-spark-cluster --region us-central1 --no-address --single-node --master-machine-type n2-standard-4 --master-boot-disk-type pd-balanced --master-boot-disk-size 500 --image-version 2.2-debian12 --optional-components JUPYTER,DOCKER --expiration-time 2024-05-15T07:00:00.000Z --project okibaba-data-engineering
