@@ -1,9 +1,12 @@
 # data-engineering-zoomcamp-project
-zoomcamp data engineering project
+
+## Project summary
+In this project we set up a cloud based infrastructure to ingest, process and visualize batch S&P 500 data.
+While the data isn't particularly large, my goal for this project was to a scalable demonstrate an end to end data engineering & visualization pipeline. We expect the infrastructure to scale even for larger data set.
 
 
 ## Technologies used
-- Terraform - Infrastructure-as-Code (IaC) tool; <br>
+- Terraform - Infrastructure-as-Code (IaC) tool & automatic provisioning of cloud resources; <br>
 - Google cloud service - cloud service provider used
 - Google Compute Engine - virtual machine <br>
 - Google Cloud Storage (GCS) - for data lake storage needs <br>
@@ -12,6 +15,9 @@ zoomcamp data engineering project
 - Spark - for data transformations <br>
 - Google Looker studio - for project data visualizations. <br>
 
+
+
+![Project Infrastructure](screenshots/mage-orchestration/orchestration-flow-diagram-.png)
 
 pipeline pulls s&p500 data bla-bla
 
