@@ -2,7 +2,7 @@
 
 ## Project summary
 In this project we set up a cloud based infrastructure to ingest, process and visualize batch S&P 500 data.
-While the data isn't particularly large, my goal for this project was to a scalable demonstrate an end to end data engineering & visualization pipeline. We expect the infrastructure to scale even for larger data set.
+While the data isn't particularly large, my goal for this project was to build a scalable end to end data engineering & visualization pipeline. We expect the infrastructure to scale even for larger data set.
 
 
 ## Technologies used
@@ -19,7 +19,13 @@ While the data isn't particularly large, my goal for this project was to a scala
 
 ![Project Infrastructure](screenshots/mage-orchestration/orchestration-flow-diagram-.png)
 
-pipeline pulls s&p500 data bla-bla
+
 
 ## Report & Discussion
 https://lookerstudio.google.com/u/0/reporting/e990566e-53de-42d0-b816-045eb529e9aa/page/cPswD/edit
+
+## key findings
+
+
+## future work
+
