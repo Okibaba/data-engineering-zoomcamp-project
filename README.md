@@ -32,6 +32,16 @@ Mage pipeline is show below, pipeline is scheduled to run monthly.
 We use kaggle S&P500 data which can be found here:
 https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks
 
+Data columns & types are as follows: <br>
+-'Date':datetime <br>
+-'Symbol':str <br>
+-'Adj Close':float <br>
+-'Close':float <br>
+-'Adj Close':float <br>
+-'High':float <br>
+-'Low':float <br>
+-'Open':float <br>
+-'Volume': pd.Int64Dtype() <br>
 
 
 
