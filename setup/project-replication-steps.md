@@ -27,4 +27,4 @@ To set up and run project, proceed as follows:
 - reproduce this Mage steps as shown below and schedule to run monthly. Use python files in mage-orchestration/data_exporter,mage-orchestration/data_loader, and mage-orchestration/transformer folders.
 (screenshots/mage-orchestration/orchestration-flow-diagram-.png)
 - once Mage is set up, configure looker visualizaton as shown below
-![Project Infrastructure](screenshots/looker/looker-studio-report.png)
+![Project Infrastructure](/screenshots/looker/looker-studio-report.png)
