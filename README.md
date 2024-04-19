@@ -24,7 +24,7 @@ While the data isn't particularly large, my goal for this project was to build a
 ![Project Infrastructure](screenshots/project-architecture-design-flow.png)
 
 ## Mage orchestration/pipeline
-Mage pipeline is show below, pipeline is scheduled to process monthly.
+Mage pipeline is show below, pipeline is scheduled to run monthly.
 ![Project Infrastructure](screenshots/mage-orchestration/orchestration-flow-diagram-.png)
 
 ## Data source and schema
