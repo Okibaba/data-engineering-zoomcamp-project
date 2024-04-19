@@ -21,6 +21,8 @@ While the data isn't particularly large, my goal for this project was to build a
 
 ## Project architecture
 
+![Project Infrastructure](screenshots/project-architecture-design-flow.png)
+
 ## Mage orchestration/pipeline
 ![Project Infrastructure](screenshots/mage-orchestration/orchestration-flow-diagram-.png)
 
