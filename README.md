@@ -1,7 +1,7 @@
 # data-engineering-zoomcamp-project
 
 ## Project summary
-In this project we set up a cloud based infrastructure to ingest, process and visualize batch S&P 500 data.
+In this project we set up a cloud based infrastructure to batch ingest, process and visualize S&P 500 data.
 Goal of analysis was to understand volume trend for the S&P500 from 2010 to present. One interesting use of this type of analysis is to understand market anomalies and shocks. During those shock periods (say a crash)the volume traded in the market tends to spike. Of course there are more rigorous analysis to answer this type of question but that's outside the scope of project.
 
 While the data isn't particularly large, my goal for this project was to build a scalable end to end data engineering & visualization pipeline. We expect the infrastructure to scale even for larger data set.
@@ -24,6 +24,7 @@ While the data isn't particularly large, my goal for this project was to build a
 ![Project Infrastructure](screenshots/project-architecture-design-flow.png)
 
 ## Mage orchestration/pipeline
+Mage pipeline is show below, pipeline is scheduled to process monthly.
 ![Project Infrastructure](screenshots/mage-orchestration/orchestration-flow-diagram-.png)
 
 ## Data source
@@ -42,8 +43,10 @@ https://lookerstudio.google.com/u/0/reporting/e990566e-53de-42d0-b816-045eb529e9
 -In general the maximum volume traded over time seems to have dropped which is a bit interesting or could just be a due to data processing artefact, and might warrant further investigation. <br>
 
 ## Future work
+These are some ideas I plan to explore in future:
 -redo project but using a streaming data source <br>
 -expand on spark pipeline <br>
 -extend analysis and potentially use machine learning to predict onset of market shocks <br>
+-edit visualization to allow for filtering <br>
 
 
