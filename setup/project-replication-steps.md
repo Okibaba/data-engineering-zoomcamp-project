@@ -1,11 +1,11 @@
 ---
-Reproducing steps
+Steps to reproduce project
 ---
-Prequist: Ensure you have Google cloud, DBT, Prefect Cloud account
-To run the project, use the following step:\
-- On GCP create a service account with with GCE, GCS and BiqQuery admin previllage
-- Create a VM with machine type `n1-standard-1` in `europe-west1` region
-- Setup the VM [link](https://www.youtube.com/watch?v=ae-CV2KfoN0&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=13&pp=iAQB):
+# Prequistes
+ Ensure you have Google cloud account.
+To set up and run project, proceed as follows:
+- On GCP create a service account with with Google compute engine, Google cloud storage, Google BiqQuery, dataproc with admin previllage
+- Create a VM with machine type `n1-standard-1`  Setup the VM following steps in this [link](https://www.youtube.com/watch?v=ae-CV2KfoN0&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=13&pp=iAQB):
     - Install Anaconda using the following steps:
         - Download anaconda using `wget https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-x86_64.sh` or the latest version from this [link](https://www.anaconda.com/download#downloads)
         - `bash Anaconda3-2023.03-1-Linux-x86_64.sh`
@@ -15,31 +15,18 @@ To run the project, use the following step:\
         - `sudo groupadd docker`
         - `sudo gpasswd -a $USER docker` 
         - `sudo docker service restart`
-- Restart VM       
-- Clone this repo using: `git clone https://github.com/uchiharon/DataTalksClub_de-zoomcamp_CapStone_Project.git`
+
 - Install terraform following the instruction in this [link](https://phoenixnap.com/kb/how-to-install-terraform)
-- Navigate to the [2_terraform]() folder, then from your CLI run:
+- Navigate to the [terraform]() folder, then from your CLI run:
     - `terraform init`
     - `terraform plan`
     - `terraform apply`
-- On your prefect cloud, create the following buckets:
-    - Docker Container
-        - name: `eia-etl-container`
-        - image: `emmanuelikpesu/eia_etl:v01`
-        - imagepullpolicy: `ALWAYS`
-    - GCP Credentials
-        - name: `zoom-gcp-creds`
-        **INPUT GCP Credentials**
-     - GCS Bucket
-        -name: `zoom-gcs`
-    - JSON
-        -name: `excel-sheet-schema`
-        - **NOTE**: Copy the information from the [excel file setting]() into it
-    - String
-        -name: `report-year`
-        -input: 2014 (for start)
-- Navigate to the [4_deployment]() folder, then run `python docker_deployment.py` to deploy the prefect workflow
-- Run  `prefect agent start --work-queue "default"` on your VM to execute a prefect agent
-- From prefect cloud, run the workflow
-- To create the external table of the parquet files in Bigquery, copy the sql code the [6_bigquery]() folder, paste it on the console and run.
-- **Finally**: To run the dbt model, copy all files from the [5_dbt]() folder and run the deployment.
+- Restart VM 
+- Clone this repo using: `git clone https://github.com/Okibaba/data-engineering-zoomcamp-project.git`
+- Install Mage following the steps here on your VM following instructions [here]()
+- reproduce this Mage steps as shown below and schedule to run monthly. Use python files in mage-orchestration/data_exporter,mage-orchestration/data_loader, and mage-orchestration/transformer folders.
+(screenshots/mage-orchestration/orchestration-flow-diagram-.png)
+
+
+- once Mage is set up, configure looker visualizaton as shown below
+- **Finally**: 
