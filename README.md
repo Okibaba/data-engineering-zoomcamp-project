@@ -14,11 +14,11 @@ While the data isn't particularly large, my goal for this project was to demonst
 - Docker & Docker-compose- containerization <br>
 - Google cloud service - cloud service provider used <br>
 - Google Compute Engine - virtual machine <br>
-- Google Cloud Storage (GCS) - for data lake storage needs <br>
-- Google BigQuery - for  Data Warehouse <br>
-- Spark - for data transformations <br>
-- Google Looker studio - for project data visualizations. <br>
-- Mage - for orchestration of pipelines <br>
+- Google Cloud Storage (GCS) - data lake storage needs <br>
+- Google BigQuery -  data Warehouse <br>
+- Spark -  data transformations <br>
+- Google Looker studio - data visualizations. <br>
+- Mage - orchestration of batch pipeline <br>
 
 
 ## Project architecture
