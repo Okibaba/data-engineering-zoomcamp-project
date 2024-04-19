@@ -1,4 +1,5 @@
 # data-engineering-zoomcamp-project
+# S&P500 trading volume data analysis & shock detection
 
 ## Project summary
 In this data engineering project, we set up a cloud based batch data pipeline to ingest, process and visualize S&P 500 data. The Standard and Poor's 500 or S&P 500 is the most famous financial benchmark in the world. This stock market index tracks the performance of 500 large companies listed on stock exchanges in the United States.
