@@ -9,7 +9,8 @@ While the data isn't particularly large, my goal for this project was to build a
 
 ## Technologies used
 - Terraform - Infrastructure-as-Code (IaC) tool & automatic provisioning of cloud resources; <br>
-- Google cloud service - cloud service provider used
+- Docker & Docker-compose- containerization <br>
+- Google cloud service - cloud service provider used <br>
 - Google Compute Engine - virtual machine <br>
 - Google Cloud Storage (GCS) - for data lake storage needs <br>
 - Google BigQuery - for  Data Warehouse <br>
@@ -39,7 +40,8 @@ https://lookerstudio.google.com/u/0/reporting/e990566e-53de-42d0-b816-045eb529e9
 -In general the maximum volume traded over time seems to have dropped which is a bit interesting or could just be a due to data processing artefact, and might warrant further investigation. <br>
 
 ## Future work
-redo project but using a streaming data source <br>
-extend analysis and potentially use machine learning to predict onset of market shocks <br>
+-redo project but using a streaming data source <br>
+-expand on spark pipeline <br>
+-extend analysis and potentially use machine learning to predict onset of market shocks <br>
 
 
