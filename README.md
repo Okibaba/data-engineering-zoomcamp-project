@@ -67,7 +67,7 @@ These are some ideas I plan to explore in future:
 
 ## Reproduce project?
 
-Please check tutorial [here](project-replication-steps.md) to reproduce project
+Please check tutorial [here](setup/project-replication-steps.md) to reproduce project
 
 ## References
 https://github.com/sanyassyed/sf_eviction/blob/master/Makefile
