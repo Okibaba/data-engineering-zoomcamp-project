@@ -3,9 +3,9 @@
 ## Project summary
 In this data engineering project, we set up a cloud based batch data pipeline to ingest, process and visualize S&P 500 data. The Standard and Poor's 500 or S&P 500 is the most famous financial benchmark in the world. This stock market index tracks the performance of 500 large companies listed on stock exchanges in the United States.
 
-Goal of analysis was to understand volume trend for the S&P500 from 2010 to present. One interesting use of this type of analysis is to understand market anomalies and shocks. During those shock periods (say a crash)the volume traded in the market tends to spike. Of course there are more rigorous analysis to answer this type of question but that's outside the scope of project.
+Goal of analysis was to understand volume trend for the S&P500 from 2010 to present. One interesting use of this type of analysis is to understand market anomalies and shocks. During shock periods (say a crash) the volume traded in the market tends to spike and displays an outlier behavior. Of course there are more rigorous analysis to study shocks in the market, but that's outside the scope of project, here we take a simple approach which can be built upon later on.
 
-While the data isn't particularly large, my goal for this project was to demonstrate building a scalable end to end data engineering & visualization pipeline thereby practicing & curating knowledge learnt from the data engineering zoomcamp program so far. Nevertheless, I expect the infrastructure to scale even for larger data set.
+While the data isn't particularly large, my goal for this project was to demonstrate building a scalable end to end data engineering & visualization pipeline thereby practicing & curating knowledge & skills acquired from the data engineering zoomcamp program so far, also I need this to get the course certificate! 
 
 
 ## Technologies used
