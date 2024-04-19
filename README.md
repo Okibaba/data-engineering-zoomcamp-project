@@ -63,5 +63,6 @@ These are some ideas I plan to explore in future:
 -expand on spark pipeline <br>
 -extend analysis and potentially use machine learning to predict onset of market shocks <br>
 -edit visualization to allow for filtering <br>
+-implement tests, makefiles & CI/CD pipelines <br>
 
 
