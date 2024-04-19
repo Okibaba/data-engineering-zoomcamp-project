@@ -52,7 +52,7 @@ https://lookerstudio.google.com/u/0/reporting/e990566e-53de-42d0-b816-045eb529e9
 
 ![Project Infrastructure](screenshots/looker/looker-studio-report.png)
 
-## Some insights from analysis
+## key findings from analysis
 -Apple appears to be one of the most traded S&P500 stock. <br>
 -We can see peak volume trends around 2010 during the global financial crisis. <br>
 -In general the maximum volume traded over time seems to have dropped which is a bit interesting or could just be a due to data processing artefact, and might warrant further investigation. <br>
@@ -64,5 +64,35 @@ These are some ideas I plan to explore in future:
 -extend analysis and potentially use machine learning to predict onset of market shocks <br>
 -edit visualization to allow for filtering <br>
 -implement tests, makefiles & CI/CD pipelines <br>
+
+## Reproduce project?
+
+Please check tutorial [here](project-replication-steps.md) to reproduce project
+
+Reproduce
+Prequistes: Ensure you have Google cloud, DBT, Prefect Cloud account To run the project, use the following step:\
+
+On GCP create a service account with with GCE, GCS and BiqQuery admin previllage
+Create a VM with machine type n1-standard-1 in europe-west1 region
+Setup the VM link:
+Install Anaconda using the following steps:
+Download anaconda using wget https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-x86_64.sh or the latest version from this link
+bash Anaconda3-2023.03-1-Linux-x86_64.sh
+Install Docker and create a user by using the following steps:
+sudo apt-get update
+sudo apt-get install docker.io
+sudo groupadd docker
+sudo gpasswd -a $USER docker
+sudo docker service restart
+Restart VM
+Clone this repo using: git clone https://github.com/uchiharon/DataTalksClub_de-zoomcamp_CapStone_Project.git
+Install terraform following the instruction in this link
+Navigate to the 2_terraform folder, then from your CLI run:
+terraform init
+terraform plan
+terraform apply
+
+## References
+https://github.com/sanyassyed/sf_eviction/blob/master/Makefile
 
 
