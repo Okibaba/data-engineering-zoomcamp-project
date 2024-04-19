@@ -58,7 +58,7 @@ https://lookerstudio.google.com/u/0/reporting/e990566e-53de-42d0-b816-045eb529e9
 -In general the maximum volume traded over time seems to have dropped which is a bit interesting or could just be a due to data processing artefact, and might warrant further investigation. <br>
 
 ## Future work
-These are some ideas I plan to explore in future:
+These are some ideas I plan to explore in future: <br>
 -redo project but using a streaming data source <br>
 -expand on spark pipeline <br>
 -extend analysis and potentially use machine learning to predict onset of market shocks <br>
