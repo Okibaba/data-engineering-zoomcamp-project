@@ -72,5 +72,6 @@ Please check tutorial [here](setup/project-replication-steps.md) to reproduce pr
 ## References
 https://github.com/sanyassyed/sf_eviction/blob/master/Makefile
 https://github.com/uchiharon/DataTalksClub_de-zoomcamp_CapStone_Project
+https://github.com/DataTalksClub/data-engineering-zoomcamp
 
 

@@ -26,7 +26,5 @@ To set up and run project, proceed as follows:
 - Install Mage following the steps here on your VM following instructions [here]()
 - reproduce this Mage steps as shown below and schedule to run monthly. Use python files in mage-orchestration/data_exporter,mage-orchestration/data_loader, and mage-orchestration/transformer folders.
 (screenshots/mage-orchestration/orchestration-flow-diagram-.png)
-
-
 - once Mage is set up, configure looker visualizaton as shown below
-- **Finally**: 
+(screenshots/looker/looker-studio-report.png)
