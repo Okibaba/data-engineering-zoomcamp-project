@@ -1,7 +1,6 @@
 ---
 Steps to reproduce project
 ---
-# Prequistes
  Ensure you have Google cloud account.
 To set up and run project, proceed as follows:
 - On GCP create a service account with with Google compute engine, Google cloud storage, Google BiqQuery, dataproc with admin previllage
