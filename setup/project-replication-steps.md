@@ -1,5 +1,5 @@
 Reproduce
-Prequistes: Ensure you have Google cloud, DBT, Prefect Cloud account To run the project, use the following step:\
+Prequistes: Ensure you have Google cloud, Mage, to run the project, use the following step:\
 
 On GCP create a service account with with GCE, GCS and BiqQuery admin previllage
 Create a VM with machine type n1-standard-1 in europe-west1 region
